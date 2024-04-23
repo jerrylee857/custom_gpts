@@ -119,6 +119,10 @@ def main():
     '.mdw',       # Markdown with additional attributes (e.g., for Jupyter notebooks)
     '.ipynb',    # Jupyter Notebook
     '.jlx',       # Julia with HTML-like syntax (alternative to .jl)
+    '.json',      #json files
+    '.md',        #readme files
+    '.yaml',       #docker compose files
+        
      ]
     pdf = PDF(format='A3')
     #pdf.set_auto_page_break(auto=False)  # 禁用自动分页
