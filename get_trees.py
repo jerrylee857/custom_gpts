@@ -82,7 +82,7 @@ def main():
     ignore_paths = [
         'custom_gpts', 'myvenv', '.git', 'staticfiles', 'venv', '__pycache__', 'media', 'myvenv2', 'collectedstatic',
         'ssimg/whoosh_index', 'ipv6test_venv', 'backend/node_modules', 'backend/package-lock.json', 'backend/*.db',
-        'frontend/node_modules', 'frontend/package-lock.json', 'backend/.git', 'frontend/.git'
+        'frontend/node_modules', 'frontend/package-lock.json', 'backend/.git', 'frontend/.git','new_server.js','backend_api.doc'
     ]
     
     included_extensions = [
